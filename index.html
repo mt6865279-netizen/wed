@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Buttons</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* FIXED BUTTON STYLE (moved outside backdrop) */
+button {
+    background-color: blue;
+    color: darkblue;
+    border: black solid 1px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* backdrop is optional but now correct */
+::backdrop {
+    background: gray;
+}
+
+h1 {
+    color: blue;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>wellcome to html buttons</h1>
+
+<p>html buttons are used to perform actions when clicked.</p>
+
+<label for="jj">Enter your text:</label>
+<textarea name="jj" id="jj" title="Enter text here" placeholder="Type something..."></textarea>
+
+<button onclick="document.location='https://www.google.com'">google</button>
+
+<div class="section">
+    <h2>button to try!!</h2>
+    <ul>
+        <li><strong>Submit Button:</strong> Used to submit a form.</li>
+        <li><strong>Reset Button:</strong> Used to reset form fields to their default values.</li>
+        <li><strong>Button Element:</strong> A generic button that can be programmed to perform any action.</li>
+    </ul>
+</div>
+
+<button type="button" onclick="document.location='https://www.youtube.com'">YouTube</button>
+
+<div class="section">
+    <h2>Styling Buttons</h2>
+    <p>Buttons can be styled using CSS to enhance their appearance and improve user experience.</p>
+    <button type="button" class="styled-button">
+        Styled Button
+    </button>
+</div>
+
+<button onclick="document.location='https://www.facebook.com'">Facebook</button>
+
+<div class="section">
+    <h2>Button Events</h2>
+    <p>Buttons can trigger various events such as click, mouseover, and more. JavaScript can be used to handle these events and perform actions accordingly.</p>
+</div>
+
+<button onclick="document.location='https://www.twitter.com'">Twitter</button>
+<p>my mom helped me to buy a pc so i can code it my favorite programming language is HTML!!!</p>
+<h2>thank you mom</h2>
+<h3>the end</h3>
+<audio controls>
+  <source src="audio-file.mp3" type="audio/mpeg">
+  Your browser does not support the audio element
+</audio>
+<p>1.6v update at 2026/26/5</p>
+</body>
+</html>
